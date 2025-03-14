@@ -29,9 +29,7 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
     background-image: url('img/Humpback_Whale_Breaching_in_Hervey_Bay\,_Alaska.jpg');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -41,7 +39,6 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
     right: 0;
@@ -80,7 +77,6 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
@@ -99,11 +95,9 @@ h2 {
 .formulario {
     background-color: #c3d3e6;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 5px;
-    /* Borda arredondada para o formulário */
     box-shadow: 0 0 5px rgba(30, 61, 82, 0.404);
-    /* Sombra suave para destacar o formulário */
+    font-size:small;
     font-weight: bold;
 }
 
